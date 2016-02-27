@@ -232,7 +232,7 @@ typedef struct {
     bt_status_t (*init)( bthf_callbacks_t* callbacks, int max_hf_clients);
 
     /** Set the feature bitmask */
-    bt_status_t (*init_features)( int feature_bitmask );
+    //bt_status_t (*init_features)( int feature_bitmask );
 
     /** connect to headset */
     bt_status_t (*connect)( bt_bdaddr_t *bd_addr );

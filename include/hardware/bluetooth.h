@@ -483,7 +483,7 @@ typedef struct {
     int (*init)(bt_callbacks_t* callbacks );
 
     /*adds callbacks for QC related calls to the btif env*/
-    int (*initq)(bt_callbacks_t* callbacks);
+    //int (*initq)(bt_callbacks_t* callbacks);
 
     /** Enable Bluetooth. */
     int (*enable)(void);
@@ -495,7 +495,7 @@ typedef struct {
     void (*cleanup)(void);
 
     /** SSR cleanup. */
-    void (*ssrcleanup)(void);
+    //void (*ssrcleanup)(void);
 
     /** Get all Bluetooth Adapter properties at init */
     int (*get_adapter_properties)(void);
