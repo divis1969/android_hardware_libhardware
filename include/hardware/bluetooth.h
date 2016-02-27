@@ -454,7 +454,7 @@ typedef struct {
     void (*cleanup)(void);
 
     /** SSR cleanup. */
-    void (*ssrcleanup)(void);
+    //void (*ssrcleanup)(void);
 
     /** Get all Bluetooth Adapter properties at init */
     int (*get_adapter_properties)(void);
