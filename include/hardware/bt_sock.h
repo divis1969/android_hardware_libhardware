@@ -62,11 +62,11 @@ typedef struct {
     /*
      * get socket option of rfcomm channel socket.
      */
-    bt_status_t (*get_sock_opt)(btsock_type_t type, int channel, btsock_option_type_t option_name, void *option_value, int *option_len);
+    //bt_status_t (*get_sock_opt)(btsock_type_t type, int channel, btsock_option_type_t option_name, void *option_value, int *option_len);
     /*
      * set socket option of rfcomm channel socket.
      */
-    bt_status_t (*set_sock_opt)(btsock_type_t type, int channel, btsock_option_type_t option_name, void *option_value, int option_len);
+    //bt_status_t (*set_sock_opt)(btsock_type_t type, int channel, btsock_option_type_t option_name, void *option_value, int option_len);
 
 
 } btsock_interface_t;
