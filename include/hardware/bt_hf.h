@@ -295,7 +295,7 @@ typedef struct {
                                        const char *number, bthf_call_addrtype_t type);
 
     /** get remote supported features */
-    int (*get_remote_features)(bt_bdaddr_t *bd_addr);
+    //int (*get_remote_features)(bt_bdaddr_t *bd_addr);
 
     /** Closes the interface. */
     void  (*cleanup)( void );
